@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title  -->
+    <title>Tejal - Shopping Application | Product Details</title>
+
+    <!-- Favicon  -->
+    <link rel="icon" href="https://th.bing.com/th/id/OIP.HDl7KXA4rxhVXUBN99qIrwHaHa?pid=ImgDet&rs=1">
+
+    <!-- Core Style CSS -->
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive.css" rel="stylesheet">
+    <div class="top_logo">
+        <a href="#"><img src="https://signature.freefire-name.com/img.php?f=3&t=Tejal" alt=""></a>
+    </div>
+</head>
+        <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area Start >>>>>>>>>>>>>>>>>>>>>>>>> -->
+        <section class="single_product_details_area section_padding_0_100">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="single_product_thumb">
+                            <div id="product_details_slider" class="carousel slide" data-ride="carousel">
+
+                                <ol class="carousel-indicators">
+                                    <li class="active" data-target="#product_details_slider" data-slide-to="0" style="background-image: url(img/product-img/product-9.jpg);">
+                                    </li>
+                                    <li data-target="#product_details_slider" data-slide-to="1" style="background-image: url(img/product-img/product-2.jpg);">
+                                    </li>
+                                    <li data-target="#product_details_slider" data-slide-to="2" style="background-image: url(img/product-img/product-3.jpg);">
+                                    </li>
+                                    <li data-target="#product_details_slider" data-slide-to="3" style="background-image: url(img/product-img/product-4.jpg);">
+                                    </li>
+                                </ol>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a class="gallery_img" href="img/product-img/product-9.jpg">
+                                        <img class="d-block w-100" src="img/product-img/product-9.jpg" alt="First slide">
+                                    </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a class="gallery_img" href="img/product-img/product-2.jpg">
+                                        <img class="d-block w-100" src="img/product-img/product-2.jpg" alt="Second slide">
+                                    </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a class="gallery_img" href="img/product-img/product-3.jpg">
+                                        <img class="d-block w-100" src="img/product-img/product-3.jpg" alt="Third slide">
+                                    </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a class="gallery_img" href="img/product-img/product-4.jpg">
+                                        <img class="d-block w-100" src="img/product-img/product-4.jpg" alt="Fourth slide">
+                                    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+
+                            <div class="widget size mb-50">
+                                <h6 class="widget-title">Size</h6>
+                                <div class="widget-desc">
+                                    <ul>
+                                        <li><a href="#">32</a></li>
+                                        <li><a href="#">34</a></li>
+                                        <li><a href="#">36</a></li>
+                                        <li><a href="#">38</a></li>
+                                        <li><a href="#">40</a></li>
+                                        <li><a href="#">42</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- Add to Cart Form -->
+                            <form class="cart clearfix mb-50 d-flex" method="post">
+                                <div class="quantity">
+                                    <span class="qty-minus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty ) &amp;&amp; qty &gt; 1 ) effect.value--;return false;"><i class="fa fa-minus" aria-hidden="true"></i></span>
+                                    <input type="number" class="qty-text" id="qty" step="1" min="1" max="12" name="quantity" value="1">
+                                    <span class="qty-plus" onclick="var effect = document.getElementById('qty'); var qty = effect.value; if( !isNaN( qty )) effect.value++;return false;"><i class="fa fa-plus" aria-hidden="true"></i></span>
+                                </div>
+                                <button type="submit" name="addtocart" value="5" class="btn cart-submit d-block">Add to cart</button>
+                            </form>
+
+                            
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingThree">
+                                        <h6 class="mb-0">
+                                            <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">shipping &amp; Returns</a>
+                                        </h6>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quo sint repudiandae suscipit ab soluta delectus voluptate, vero vitae, tempore maxime rerum iste dolorem mollitia perferendis distinctio. Quibusdam laboriosam rerum distinctio. Repudiandae fugit odit, sequi id!</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae qui maxime consequatur laudantium temporibus ad et. A optio inventore deleniti ipsa.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <<<<<<<<<<<<<<<<<<<< Single Product Details Area End >>>>>>>>>>>>>>>>>>>>>>>>> -->
+        
+    <!-- /.wrapper end -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+</body>
+
+</html>
